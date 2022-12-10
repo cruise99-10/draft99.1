@@ -11,7 +11,7 @@ db = client.dbsparta
 
 
 @app.route('/')
-def index():
+def home():
     return render_template('review.html')
 
 
